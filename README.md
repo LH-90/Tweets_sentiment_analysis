@@ -37,13 +37,13 @@ Steps:
 - Tokenization and Stemming: Tokenize the cleaned text, breaking it down into individual tokens and apply stemming to reduce words to their root form.
 - Data joining: Join the tokenized and stemmed words back together. The text is now a list of strings, ready for further analysis.
 
-### 2. Model Training
+### 2. Model training
 
 Split the labeled dataset into training and testing sets.
 Convert it into numerical features using techniques like Bag-of-Words.
 Train a Naive Bayes classifier model using the training data.
 
-### 3. Model Evaluation
+### 3. Model evaluation
 Evaluate the trained model's accuracy and performance on the testing dataset.
 
 ### 4. "ChatGPT_tweets" preprocessing
