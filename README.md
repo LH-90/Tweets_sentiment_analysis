@@ -32,7 +32,7 @@ There are two CSV files:
 
 ### 1. "Tweets" data preprocessing
 
-- Column selection: Select the relevant columns from the **Tweets** dataset.
+- Column selection: Select the relevant columns from **Tweets.csv**.
 - Text cleaning: Clean the text data by removing special characters, URLs, and stopwords to ensure that only meaningful words are kept.
 - Tokenization and stemming: Tokenize the cleaned text, breaking it down into individual tokens and apply stemming to reduce words to their root form.
 - Data joining: Join the tokenized and stemmed words back together. The text is now a list of strings, ready for further analysis.
@@ -52,7 +52,7 @@ Same steps as "Tweets" data preprocessing
 
 ### 5. "ChatGPT_tweets" sentiment prediction
 
-Use the trained model to predict the sentiment of tweets in the **ChatGPT_tweets.csv** dataset.
+Use the trained model to predict the sentiment of tweets in **ChatGPT_tweets.csv**.
 
 ### 6. Bonus analyses
 
