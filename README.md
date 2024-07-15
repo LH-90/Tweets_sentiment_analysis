@@ -24,8 +24,8 @@ A virtual environment is an isolated Python environment that allows you to insta
 
 Steps:
 - Open the integrated terminal in VS Code.
-- Type "python3 -m venv myenv": Create a new directory named "myenv" in the current directory.
-- Type "source myenv/bin/activate": Activate the virtual environment.
+- Create the virtual environment `python3 -m venv myenv`
+- Activate the virtual environment `source myenv/bin/activate`
 
 
 ## Sentiment analysis
