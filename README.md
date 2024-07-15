@@ -32,9 +32,9 @@ There are two CSV files:
 
 ### 1. "Tweets" data preprocessing
 
-- Column Selection: Select the relevant columns from the "Tweets" dataset.
-- Text Cleaning: Clean the text data by removing special characters, URLs, and stopwords to ensure that only meaningful words are kept.
-- Tokenization and Stemming: Tokenize the cleaned text, breaking it down into individual tokens and apply stemming to reduce words to their root form.
+- Column selection: Select the relevant columns from the **Tweets** dataset.
+- Text cleaning: Clean the text data by removing special characters, URLs, and stopwords to ensure that only meaningful words are kept.
+- Tokenization and stemming: Tokenize the cleaned text, breaking it down into individual tokens and apply stemming to reduce words to their root form.
 - Data joining: Join the tokenized and stemmed words back together. The text is now a list of strings, ready for further analysis.
 
 ### 2. Model training
@@ -52,10 +52,10 @@ Same steps as "Tweets" data preprocessing
 
 ### 5. "ChatGPT_tweets" sentiment prediction
 
-Use the trained model to predict the sentiment of tweets in the ChatGPT_tweets.csv dataset.
+Use the trained model to predict the sentiment of tweets in the **ChatGPT_tweets.csv** dataset.
 
 ### 6. Bonus analyses
 
-**Most common hashtags:** Identify and extract the most common hashtags in "ChatGPT_tweets". This analysis provides insights into trending topics or themes within the tweets.
+**Most common hashtags:** Identify and extract the most common hashtags in **ChatGPT_tweets**. This analysis provides insights into trending topics or themes within the tweets.
 
-**Most similar words:** Use word embedding techniques to represent words as vectors and explore semantic relationships between words by finding the most similar words in "ChatGPT_tweets".
+**Most similar words:** Use word embedding techniques to represent words as vectors and explore semantic relationships between words by finding the most similar words in **ChatGPT_tweets**.
