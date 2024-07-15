@@ -23,12 +23,10 @@ There are two CSV files:
 A virtual environment is an isolated Python environment that allows you to install packages and manage dependencies specific to your project without affecting other projects or the global Python environment. 
 
 Steps:
-- Make a new directory
-- Open the integrated terminal in VS Code
+- Clone this repo
 - Create a virtual environment `python3 -m venv myenv`
 - Activate the virtual environment `source myenv/bin/activate`
-- Create a new directory inside the main directory and import **sentiment_analysis_tweets.ipynb**, **Tweets.csv** and **ChatGPT_tweets.csv**
-
+- Run the code inside **sentiment_analysis_tweets.ipynb**
 
 ## Sentiment analysis
 
