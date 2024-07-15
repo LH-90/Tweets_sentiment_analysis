@@ -8,7 +8,7 @@ In sentiment analysis, a model is trained on a labeled dataset where each piece 
 
 **Objective**
 
-In the context of this project, the objective is to train a naive Bayes classifier model using a dataset of tweets ("Tweets.csv") with labeled sentiments. The accuracy of the model's predictions on the test dataset will be evaluated. Then, the trained model will be used to predict the sentiment of another dataset of tweets ("ChatGPT_tweets.csv") where the labels are unknown. 
+In the context of this project, the objective is to train a naive Bayes classifier model using a dataset of tweets (**Tweets.csv**) with labeled sentiments. The accuracy of the model's predictions on the test dataset will be evaluated. Then, the trained model will be used to predict the sentiment of another dataset of tweets (**ChatGPT_tweets.csv**) where the labels are unknown. 
 
 **Dataset**
 
