@@ -18,15 +18,15 @@ There are two CSV files:
 - **ChatGPT_tweets**: This file contains tweets without labels, which will be used to predict sentiment using the trained model.
 
 
-## Setting up a virtual environment in VS Code
+## Setup
 
-A virtual environment is an isolated Python environment that allows you to install packages and manage dependencies specific to your project without affecting other projects or the global Python environment. 
-
-Steps:
 - Clone this repo
+- Install Python on your computer (https://www.python.org/downloads/)
 - Create a virtual environment `python3 -m venv myenv`
 - Activate the virtual environment `source myenv/bin/activate`
+- Inside the activated virtual environment (myenv), install the required dependencies: pip install pandas nltk scikit-learn matplotlib wordcloud gensim emoji
 - Run the code inside **sentiment_analysis_tweets.ipynb**
+
 
 ## Sentiment analysis
 
