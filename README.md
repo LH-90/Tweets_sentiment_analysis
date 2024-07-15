@@ -14,8 +14,8 @@ In the context of this project, the objective is to train a naive Bayes classifi
 
 The 2 datasets used in this project are downloaded from Kaggle and contain tweets from the social media X.
 There are two CSV files:
-- "Tweets": This file contains labeled tweets used for training and testing the model.
-- "ChatGPT_tweets": This file contains tweets without labels, which will be used to predict sentiment using the trained model.
+- **Tweets**: This file contains labeled tweets used for training and testing the model.
+- **ChatGPT_tweets**: This file contains tweets without labels, which will be used to predict sentiment using the trained model.
 
 
 ## Setting up a virtual environment in VS Code
@@ -23,9 +23,11 @@ There are two CSV files:
 A virtual environment is an isolated Python environment that allows you to install packages and manage dependencies specific to your project without affecting other projects or the global Python environment. 
 
 Steps:
-- Open the integrated terminal in VS Code.
-- Create the virtual environment `python3 -m venv myenv`
+- Make a new directory
+- Open the integrated terminal in VS Code
+- Create a virtual environment `python3 -m venv myenv`
 - Activate the virtual environment `source myenv/bin/activate`
+- Create a new directory inside the main directory and import **sentiment_analysis_tweets.ipynb**
 
 
 ## Sentiment analysis
