@@ -27,7 +27,7 @@ Steps:
 - Open the integrated terminal in VS Code
 - Create a virtual environment `python3 -m venv myenv`
 - Activate the virtual environment `source myenv/bin/activate`
-- Create a new directory inside the main directory and import **sentiment_analysis_tweets.ipynb**
+- Create a new directory inside the main directory and import **sentiment_analysis_tweets.ipynb**, **Tweets.csv** and **ChatGPT_tweets.csv**
 
 
 ## Sentiment analysis
